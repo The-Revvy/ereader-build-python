@@ -15,7 +15,5 @@ ifile.close()
 ofile.close()
 os.remove("main.z80")
 os.rename(r'card.z80',r'main.z80')
-#generate raw
-os.system('cmd /c "nedcmake.exe -i main.z80 -o us -type 1 -region 1 -raw')
-#generate bmp
-os.system('cmd /c "nedcmake.exe -i main.z80 -o us -type 1 -region 1 -bmp"')
+#generate raw and bmp
+os.system('cmd /c "nedcmake.exe -i main.z80 -o us -type 1 -region 1 -raw -bmp')
