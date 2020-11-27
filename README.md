@@ -2,3 +2,5 @@ python script to build ereader card disassemblies that i made because i was tire
 * Download [SDCC](http://sdcc.sourceforge.net/)
 * Download [nedcmake](https://www.caitsith2.com/ereader/tools/nedcmake.rar) from [caitsith2.com E-Reader Development Tools](https://www.caitsith2.com/ereader/devtools.htm)
 * Run the script
+
+outputs `us-01.raw` and `us-01.bmp`
